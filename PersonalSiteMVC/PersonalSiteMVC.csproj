@@ -127,14 +127,33 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\assets\img\avataaars.svg" />
+    <Content Include="Content\assets\img\boat.jpg" />
+    <Content Include="Content\assets\img\business.jpg" />
+    <Content Include="Content\assets\img\favicon.ico" />
+    <Content Include="Content\assets\img\HelloJohn_Portrait_sized_copy2.png" />
+    <Content Include="Content\assets\img\jdsFavicon.ico" />
+    <Content Include="Content\assets\img\mapcodepen.png" />
+    <Content Include="Content\assets\img\mapcodepen526.jpg" />
+    <Content Include="Content\assets\img\mapcodepenFinal.jpg" />
+    <Content Include="Content\assets\img\portfolio\cabin.png" />
+    <Content Include="Content\assets\img\portfolio\cake.png" />
+    <Content Include="Content\assets\img\portfolio\circus.png" />
+    <Content Include="Content\assets\img\portfolio\game.png" />
+    <Content Include="Content\assets\img\portfolio\genericPizzaLogoBlue.jpg" />
+    <Content Include="Content\assets\img\portfolio\safe.png" />
+    <Content Include="Content\assets\img\portfolio\submarine.png" />
+    <Content Include="Content\assets\img\residekc_logo.png" />
+    <Content Include="Content\assets\img\residekc_logo_200.png" />
+    <Content Include="Content\assets\img\residekc_logo_216.png" />
+    <Content Include="Content\assets\img\residekc_logo_big.png" />
+    <Content Include="Content\assets\mail\contact_me.js" />
+    <Content Include="Content\assets\mail\contact_me.php" />
+    <Content Include="Content\assets\mail\jqBootstrapValidation.js" />
+    <Content Include="Content\css\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="_archive\assets\img\avataaars.svg" />
@@ -160,12 +179,16 @@
     <Content Include="_archive\assets\mail\contact_me.js" />
     <Content Include="_archive\assets\mail\contact_me.php" />
     <Content Include="_archive\assets\mail\jqBootstrapValidation.js" />
+    <Content Include="_archive\contact - Copy.html" />
     <Content Include="_archive\contact.html" />
     <Content Include="_archive\css\styles.css" />
+    <Content Include="_archive\index - Copy.html" />
     <Content Include="_archive\index.html" />
     <Content Include="_archive\js\scripts.js" />
+    <Content Include="_archive\links - Copy.html" />
     <Content Include="_archive\links.html" />
     <Content Include="_archive\projects.html" />
+    <Content Include="_archive\Resume - Copy.html" />
     <Content Include="_archive\Resume.html" />
     <Content Include="_archive\_archive\assets\img\avataaars.svg" />
     <Content Include="_archive\_archive\assets\img\favicon.ico" />
@@ -206,6 +229,9 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\Links.cshtml" />
+    <Content Include="Views\Home\Resume.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -216,10 +242,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
