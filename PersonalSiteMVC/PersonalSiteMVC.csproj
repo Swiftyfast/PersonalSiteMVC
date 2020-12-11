@@ -148,6 +148,7 @@
     <Content Include="Content\assets\img\residekc_logo_200.png" />
     <Content Include="Content\assets\img\residekc_logo_216.png" />
     <Content Include="Content\assets\img\residekc_logo_big.png" />
+    <Content Include="Content\assets\mail\accordian.js" />
     <Content Include="Content\assets\mail\contact_me.js" />
     <Content Include="Content\assets\mail\contact_me.php" />
     <Content Include="Content\assets\mail\jqBootstrapValidation.js" />
