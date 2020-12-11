@@ -74,7 +74,6 @@ namespace PersonalSiteMVC.Controllers
             msg.IsBodyHtml = true; //Allow HTML formatting in the email
             //msg.CC.Add("anotherEmail@email.com");
             //msg.ReplyToList.Add(cvm.Email); //Response to the sender's email instead of our smarterasp.net email
-            //msg.Priority = MailPriority.High;
 
             //4) Create the SmptpClient - This is the information from the HOST (smarterasp.net)
             //This allows the email to actually be sent
