@@ -10312,3 +10312,41 @@ form .row:first-child .floating-label-form-group {
 .ui-accordion-content{
     color: red;
 }*/
+
+.linksToClassmates{
+    max-width: 16em;
+    max-height: 16em;
+    border: .2em black solid;
+    border-radius: 8em;
+}
+
+
+/* This is Hamburger menu stuff*/
+.expandedClass{
+
+}
+
+nav ul#navbarResponsive.expandedClass {
+    float: none;
+    clear: both;
+    display: block;
+}
+
+    nav ul#navbarResponsive.expandedClass li {
+        display: block;
+    }
+
+        nav ul#navbarResponsive.expandedClass li a {
+            display: block;
+            text-align: center;
+            font-size: 1em;
+        }
+
+
+/* This will probably have to be renamed?*/
+nav li.dropdown ul.dropdown-menu {
+    width: 50%;
+    float: none;
+    margin: auto;
+    position: static;
+}
