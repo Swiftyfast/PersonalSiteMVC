@@ -80,7 +80,7 @@ namespace PersonalSiteMVC.Controllers
             SmtpClient client = new SmtpClient("mail.johndavidswift.com");
 
             //Client Credentials (SmarterASP requires your username and password)
-            client.Credentials = new NetworkCredential("no-reply@johndavidswift.com", "LOL NOPE ");
+            client.Credentials = new NetworkCredential("no-reply@johndavidswift.com", "LOL NOPE");
             //client.port = 8889;
 
             //5) Attempt to send the email

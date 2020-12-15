@@ -139,13 +139,7 @@
     <Content Include="Content\assets\img\mapcodepen.png" />
     <Content Include="Content\assets\img\mapcodepen526.jpg" />
     <Content Include="Content\assets\img\mapcodepenFinal.jpg" />
-    <Content Include="Content\assets\img\portfolio\cabin.png" />
-    <Content Include="Content\assets\img\portfolio\cake.png" />
-    <Content Include="Content\assets\img\portfolio\circus.png" />
-    <Content Include="Content\assets\img\portfolio\game.png" />
     <Content Include="Content\assets\img\portfolio\genericPizzaLogoBlue.jpg" />
-    <Content Include="Content\assets\img\portfolio\safe.png" />
-    <Content Include="Content\assets\img\portfolio\submarine.png" />
     <Content Include="Content\assets\img\residekc_logo.png" />
     <Content Include="Content\assets\img\residekc_logo_200.png" />
     <Content Include="Content\assets\img\residekc_logo_216.png" />
