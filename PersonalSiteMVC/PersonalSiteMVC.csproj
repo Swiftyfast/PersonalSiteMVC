@@ -136,15 +136,10 @@
     <Content Include="Content\assets\img\HelloJohn_Portrait_sized_copy2.png" />
     <Content Include="Content\assets\img\jdsFavicon.ico" />
     <Content Include="Content\assets\img\m-bell.JPG" />
-    <Content Include="Content\assets\img\mapcodepen.png" />
     <Content Include="Content\assets\img\mapcodepen526.jpg" />
-    <Content Include="Content\assets\img\mapcodepenFinal.jpg" />
     <Content Include="Content\assets\img\portfolio\genericPizzaLogoBlue.jpg" />
     <Content Include="Content\assets\img\residekc_logo.png" />
     <Content Include="Content\assets\img\residekc_logo_200.png" />
-    <Content Include="Content\assets\img\residekc_logo_216.png" />
-    <Content Include="Content\assets\img\residekc_logo_big.png" />
-    <Content Include="Content\assets\img\s-pearson.png" />
     <Content Include="Content\assets\img\s-pearson1.jpg" />
     <Content Include="Content\assets\img\t-toney.jpg" />
     <Content Include="Content\assets\mail\accordian.js" />
