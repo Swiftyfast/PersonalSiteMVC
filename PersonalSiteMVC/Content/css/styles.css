@@ -10303,6 +10303,50 @@ form .row:first-child .floating-label-form-group {
 
 
 /* This is Hamburger menu stuff*/
+
+.hamburger-pull-right {
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    nav ul#navbarResponsive {
+        display: none;
+    }
+
+    nav a.pull-right {
+        display: inline-block;
+    }
+
+    nav ul#navbarResponsive.expandedClass {
+        float: none;
+        clear: both;
+        display: block;
+    }
+
+        nav ul#navbarResponsive.expandedClass li {
+            display: block;
+        }
+
+            nav ul#navbarResponsive.expandedClass li a {
+                display: block;
+                text-align: center;
+                font-size: 1em;
+            }
+
+    nav li.dropdown ul.dropdown-menu {
+        width: 50%;
+        float: none;
+        margin: auto;
+        position: static;
+    }
+}
+
+
 .expandedClass{
 
 }
