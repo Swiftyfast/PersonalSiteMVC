@@ -10313,7 +10313,7 @@ form .row:first-child .floating-label-form-group {
     display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) and (min-width: 400px){
     nav ul#navbarResponsive {
         display: none;
     }
