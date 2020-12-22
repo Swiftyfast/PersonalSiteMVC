@@ -10347,7 +10347,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 
-.expandedClass{
+/*.expandedClass{
 
 }
 
@@ -10369,9 +10369,9 @@ nav ul#navbarResponsive.expandedClass {
 
 
 /* This will probably have to be renamed?*/
-nav li.dropdown ul.dropdown-menu {
+/* nav li.dropdown ul.dropdown-menu {
     width: 50%;
     float: none;
     margin: auto;
     position: static;
-}
+}*/

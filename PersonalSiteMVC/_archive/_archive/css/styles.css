@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
 * Start Bootstrap - Freelancer v6.0.4 (https://startbootstrap.com/themes/freelancer)
 * Copyright 2013-2020 Start Bootstrap
@@ -10,6 +10,12 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+/*
+    First trial to fix sizing for hamburger menu: nothing. 992px-1000px it works properly.
+    Second trial: code out anything that has 992px or breakpoint
+*/
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -32,11 +38,11 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
-  --breakpoint-xs: 0;
+  /*--breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
+  --breakpoint-xl: 1200px;*/
   --font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -556,11 +562,11 @@ pre code {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
@@ -585,11 +591,11 @@ pre code {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
@@ -1255,13 +1261,13 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
     min-width: 0;
     max-width: 100%;
-  }
+  }*/
 
   .row-cols-lg-1 > * {
     flex: 0 0 100%;
@@ -3058,11 +3064,11 @@ input[type=button].btn-block {
     left: auto;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .dropdown-menu-lg-left {
     right: auto;
     left: 0;
-  }
+  }*/
 
   .dropdown-menu-lg-right {
     right: 0;
@@ -4153,7 +4159,7 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -4183,7 +4189,7 @@ input[type=button].btn-block {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
-}
+}*/
 @media (max-width: 1199.98px) {
   .navbar-expand-xl > .container,
 .navbar-expand-xl > .container-fluid,
@@ -5146,7 +5152,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-left-width: 0.125rem;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .list-group-horizontal-lg {
     flex-direction: row;
   }
@@ -5169,7 +5175,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     margin-left: -0.125rem;
     border-left-width: 0.125rem;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .list-group-horizontal-xl {
     flex-direction: row;
@@ -5570,12 +5576,12 @@ a.close.disabled {
     max-width: 300px;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .modal-lg,
 .modal-xl {
     max-width: 800px;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .modal-xl {
     max-width: 1140px;
@@ -6418,7 +6424,7 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .d-lg-none {
     display: none !important;
   }
@@ -6454,7 +6460,7 @@ button.bg-dark:focus {
   .d-lg-inline-flex {
     display: inline-flex !important;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .d-xl-none {
     display: none !important;
@@ -6980,7 +6986,7 @@ button.bg-dark:focus {
     align-self: stretch !important;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .flex-lg-row {
     flex-direction: row !important;
   }
@@ -7116,7 +7122,7 @@ button.bg-dark:focus {
   .align-self-lg-stretch {
     align-self: stretch !important;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .flex-xl-row {
     flex-direction: row !important;
@@ -7292,7 +7298,7 @@ button.bg-dark:focus {
     float: none !important;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .float-lg-left {
     float: left !important;
   }
@@ -7304,7 +7310,7 @@ button.bg-dark:focus {
   .float-lg-none {
     float: none !important;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .float-xl-left {
     float: left !important;
@@ -8792,7 +8798,7 @@ button.bg-dark:focus {
     margin-left: auto !important;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -9224,7 +9230,7 @@ button.bg-dark:focus {
 .mx-lg-auto {
     margin-left: auto !important;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .m-xl-0 {
     margin: 0 !important;
@@ -9730,7 +9736,7 @@ button.bg-dark:focus {
     text-align: center !important;
   }
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .text-lg-left {
     text-align: left !important;
   }
@@ -9742,7 +9748,7 @@ button.bg-dark:focus {
   .text-lg-center {
     text-align: center !important;
   }
-}
+}*/
 @media (min-width: 1200px) {
   .text-xl-left {
     text-align: left !important;
@@ -9954,13 +9960,13 @@ h3 {
   @page {
     size: a3;
   }
-  body {
+  /*body {
     min-width: 992px !important;
   }
 
   .container {
     min-width: 992px !important;
-  }
+  }*/
 
   .navbar {
     display: none;
@@ -10005,12 +10011,12 @@ h3 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
   }
-}
+}*/
 
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
@@ -10101,7 +10107,7 @@ h3 {
   padding: 0.8rem;
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -10130,7 +10136,7 @@ h3 {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
-}
+}*/
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
@@ -10146,7 +10152,7 @@ h3 {
   width: 15rem;
 }
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
@@ -10158,7 +10164,7 @@ h3 {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
-}
+}*/
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
