@@ -10314,6 +10314,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 @media screen and (max-width: 1000px) and (min-width: 400px){
+    /*originaly:*/
+    /* @media screen and (max-width: 1000px){ */
     nav ul#navbarResponsive {
         display: none;
     }
