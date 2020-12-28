@@ -10277,23 +10277,19 @@ form .row:first-child .floating-label-form-group {
 }
 
 /*This is where I start my stuff*/
-
 .blackText{
     color: black !important;
 }
-
 /*This is for trying to get the modal row a certain height*/
 .modal-row-doubles {
     height: 75%;
 }
-
 .img-fluid-three {
     height: 100%;
     width: auto;
     /*max-width: 100%;
     height: auto;*/
 }
-
 .linksToClassmates{
     max-width: 16em;
     max-height: 16em;
@@ -10301,9 +10297,7 @@ form .row:first-child .floating-label-form-group {
     border-radius: 8em;
 }
 
-
 /* This is Hamburger menu stuff*/
-
 .hamburger-pull-right {
     font-weight: bold;
     color: #fff;
@@ -10312,7 +10306,6 @@ form .row:first-child .floating-label-form-group {
     font-size: 1.5em;
     display: none;
 }
-
 @media screen and (max-width: 1000px) and (min-width: 400px){
     /*originaly:*/
     /* @media screen and (max-width: 1000px){ */
@@ -10347,33 +10340,3 @@ form .row:first-child .floating-label-form-group {
         position: static;
     }
 }
-
-
-/*.expandedClass{
-
-}
-
-nav ul#navbarResponsive.expandedClass {
-    float: none;
-    clear: both;
-    display: block;
-}
-
-    nav ul#navbarResponsive.expandedClass li {
-        display: block;
-    }
-
-        nav ul#navbarResponsive.expandedClass li a {
-            display: block;
-            text-align: center;
-            font-size: 1em;
-        }
-
-
-/* This will probably have to be renamed?*/
-/* nav li.dropdown ul.dropdown-menu {
-    width: 50%;
-    float: none;
-    margin: auto;
-    position: static;
-}*/
