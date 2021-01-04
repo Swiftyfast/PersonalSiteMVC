@@ -573,9 +573,9 @@ pre code {
   }
   /* Changed 1/4 */
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .container {
-    max-width: 1140px;
+    max-width: 740px;
   }
 }
 
@@ -603,9 +603,10 @@ pre code {
   }
     /* Changed 1/4 from 992/940 */
 }
-@media (min-width: 1200px) {
+/* changing 1200/1140 to 800/740*/
+@media (min-width: 800px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px;
+    max-width: 740px;
   }
 }
 .row {
@@ -1480,7 +1481,7 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .col-xl {
     flex-basis: 0;
     flex-grow: 1;
@@ -3083,7 +3084,7 @@ input[type=button].btn-block {
     left: auto;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .dropdown-menu-xl-left {
     right: auto;
     left: 0;
@@ -4211,7 +4212,7 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .navbar-expand-xl {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -5186,7 +5187,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     border-left-width: 0.125rem;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .list-group-horizontal-xl {
     flex-direction: row;
   }
@@ -5595,7 +5596,7 @@ a.close.disabled {
     max-width: 760px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .modal-xl {
     max-width: 1140px;
   }
@@ -6475,7 +6476,7 @@ button.bg-dark:focus {
     display: inline-flex !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .d-xl-none {
     display: none !important;
   }
@@ -7137,7 +7138,7 @@ button.bg-dark:focus {
     align-self: stretch !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .flex-xl-row {
     flex-direction: row !important;
   }
@@ -7325,7 +7326,7 @@ button.bg-dark:focus {
     float: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .float-xl-left {
     float: left !important;
   }
@@ -9246,7 +9247,7 @@ button.bg-dark:focus {
     margin-left: auto !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .m-xl-0 {
     margin: 0 !important;
   }
@@ -9764,7 +9765,7 @@ button.bg-dark:focus {
     text-align: center !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .text-xl-left {
     text-align: left !important;
   }
