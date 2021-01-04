@@ -557,20 +557,21 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .container {
     max-width: 540px;
   }
-}
-@media (min-width: 768px) {
+}*/
+/*@media (min-width: 768px) {
   .container {
     max-width: 720px;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .container {
-    max-width: 960px;
+    max-width: 339px;
   }
+  /* Changed 1/4 */
 }
 @media (min-width: 1200px) {
   .container {
@@ -586,7 +587,7 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
   }
@@ -595,11 +596,12 @@ pre code {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 339px;
   }
+    /* Changed 1/4 from 992/940 */
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -842,7 +844,7 @@ pre code {
   margin-left: 91.6666666667%;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1265,8 +1267,8 @@ pre code {
   .offset-md-11 {
     margin-left: 91.6666666667%;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -1947,7 +1949,7 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 575.98px) {
+/*@media (max-width: 575.98px) {
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1968,8 +1970,8 @@ pre code {
   .table-responsive-md > .table-bordered {
     border: 0;
   }
-}
-@media (max-width: 991.98px) {
+}*/
+@media (max-width: 340px) {
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -2389,6 +2391,7 @@ textarea.form-control {
 .form-inline .form-check {
   width: 100%;
 }
+/* CheckNext this could probably be changed to 340 I think or uncommented*/
 @media (min-width: 576px) {
   .form-inline label {
     display: flex;
@@ -3047,7 +3050,7 @@ input[type=button].btn-block {
   left: auto;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .dropdown-menu-sm-left {
     right: auto;
     left: 0;
@@ -3068,8 +3071,8 @@ input[type=button].btn-block {
     right: 0;
     left: auto;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .dropdown-menu-lg-left {
     right: auto;
     left: 0;
@@ -4069,7 +4072,7 @@ input[type=button].btn-block {
   background-size: 100% 100%;
 }
 
-@media (max-width: 575.98px) {
+/*@media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
 .navbar-expand-sm > .container-fluid,
 .navbar-expand-sm > .container-sm,
@@ -4152,8 +4155,9 @@ input[type=button].btn-block {
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
-}
-@media (max-width: 991.98px) {
+}*/
+@media (max-width: 340px) {
+    /* Changed 1/4 from 991.98 */
   .navbar-expand-lg > .container,
 .navbar-expand-lg > .container-fluid,
 .navbar-expand-lg > .container-sm,
@@ -4164,7 +4168,8 @@ input[type=button].btn-block {
     padding-left: 0;
   }
 }
-@media (min-width: 992px) {
+/* This might be it right here */
+@media (min-width: 340px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -4473,7 +4478,7 @@ input[type=button].btn-block {
 .card-deck .card {
   margin-bottom: 1.5rem;
 }
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .card-deck {
     display: flex;
     flex-flow: row wrap;
@@ -4486,12 +4491,12 @@ input[type=button].btn-block {
     margin-bottom: 0;
     margin-left: 1.5rem;
   }
-}
+}*/
 
 .card-group > .card {
   margin-bottom: 1.5rem;
 }
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
@@ -4528,12 +4533,12 @@ input[type=button].btn-block {
 .card-group > .card:not(:first-child) .card-footer {
     border-bottom-left-radius: 0;
   }
-}
+}*/
 
 .card-columns .card {
   margin-bottom: 0.75rem;
 }
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .card-columns {
     -moz-column-count: 3;
          column-count: 3;
@@ -4546,7 +4551,7 @@ input[type=button].btn-block {
     display: inline-block;
     width: 100%;
   }
-}
+}*/
 
 .accordion > .card {
   overflow: hidden;
@@ -4824,7 +4829,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   background-color: #e9ecef;
   border-radius: 0.75rem;
 }
-@media (min-width: 576px) {
+@media (min-width: 340px) {
   .jumbotron {
     padding: 4rem 2rem;
   }
@@ -5109,7 +5114,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-left-width: 0.125rem;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .list-group-horizontal-sm {
     flex-direction: row;
   }
@@ -5156,8 +5161,8 @@ a.badge-dark:focus, a.badge-dark.focus {
     margin-left: -0.125rem;
     border-left-width: 0.125rem;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .list-group-horizontal-lg {
     flex-direction: row;
   }
@@ -5556,7 +5561,7 @@ a.close.disabled {
   overflow: scroll;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -5568,7 +5573,8 @@ a.close.disabled {
   .modal-dialog-scrollable .modal-content {
     max-height: calc(100vh - 3.5rem);
   }
-  /*here is an edit for height-john the two below where 3.5*/
+  here is an edit for height-john the two below where 3.5*/
+/*
   .modal-dialog-centered {
     min-height: calc(100% - 3.5rem);
   }
@@ -5582,11 +5588,11 @@ a.close.disabled {
   .modal-sm {
     max-width: 300px;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 800px) {
   .modal-lg,
 .modal-xl {
-    max-width: 800px;
+    max-width: 760px;
   }
 }
 @media (min-width: 1200px) {
@@ -6358,7 +6364,7 @@ button.bg-dark:focus {
   display: inline-flex !important;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .d-sm-none {
     display: none !important;
   }
@@ -6431,8 +6437,8 @@ button.bg-dark:focus {
   .d-md-inline-flex {
     display: inline-flex !important;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .d-lg-none {
     display: none !important;
   }
@@ -6720,7 +6726,7 @@ button.bg-dark:focus {
   align-self: stretch !important;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .flex-sm-row {
     flex-direction: row !important;
   }
@@ -6993,8 +6999,8 @@ button.bg-dark:focus {
   .align-self-md-stretch {
     align-self: stretch !important;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .flex-lg-row {
     flex-direction: row !important;
   }
@@ -7280,7 +7286,7 @@ button.bg-dark:focus {
   float: none !important;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .float-sm-left {
     float: left !important;
   }
@@ -7305,8 +7311,8 @@ button.bg-dark:focus {
   .float-md-none {
     float: none !important;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .float-lg-left {
     float: left !important;
   }
@@ -7941,7 +7947,7 @@ button.bg-dark:focus {
   margin-left: auto !important;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -8806,8 +8812,8 @@ button.bg-dark:focus {
 .mx-md-auto {
     margin-left: auto !important;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -9719,7 +9725,7 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
   }
@@ -9744,8 +9750,8 @@ button.bg-dark:focus {
   .text-md-center {
     text-align: center !important;
   }
-}
-@media (min-width: 992px) {
+}*/
+@media (min-width: 340px) {
   .text-lg-left {
     text-align: left !important;
   }
@@ -10020,7 +10026,7 @@ h3 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 800px) {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
@@ -10116,7 +10122,7 @@ h3 {
   padding: 0.8rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 340px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -10162,7 +10168,7 @@ h3 {
   width: 15rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 340px) {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
@@ -10202,7 +10208,7 @@ h3 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
-@media (min-width: 992px) {
+@media (min-width: 340px) {
   .portfolio-modal .portfolio-modal-title {
     font-size: 3rem;
     line-height: 2.5rem;
