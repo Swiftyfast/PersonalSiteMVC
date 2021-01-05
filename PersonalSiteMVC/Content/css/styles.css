@@ -604,9 +604,10 @@ pre code {
     /* Changed 1/4 from 992/940 */
 }
 /* changing 1200/1140 to 800/740*/
-@media (min-width: 800px) {
+/* Changed it back for modals and seems to work?*/
+@media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 740px;
+    max-width: 1140px;
   }
 }
 .row {
@@ -10346,4 +10347,20 @@ form .row:first-child .floating-label-form-group {
         margin: auto;
         position: static;
     }
+}
+
+.myContainer {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.myContainer-fluid, .myContainer-xl, .myContainer-lg, .myContainer-md, .myContainer-sm {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
 }
