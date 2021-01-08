@@ -10302,7 +10302,8 @@ form .row:first-child .floating-label-form-group {
     max-width: 16em;
     max-height: 16em;
     border: .2em black solid;
-    border-radius: 8em;
+    /*border-radius: 8em;*/
+    border-radius: 50%;
 }
 
 /* This is Hamburger menu stuff*/
