@@ -3,7 +3,7 @@
 $(function () {
     $(".accordion").accordion({
         // optional plugin customization in key value pairs
-        collapXsible: true,
+        collapsible: true,
         heightStyle: "content"
     });
 });

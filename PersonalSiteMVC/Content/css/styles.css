@@ -5562,8 +5562,8 @@ a.close.disabled {
   height: 50px;
   overflow: scroll;
 }
-
-/*@media (min-width: 576px) {
+/* THIS IS WHAT I CHANGED*/
+@media (min-width: 576px) {
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -5575,8 +5575,8 @@ a.close.disabled {
   .modal-dialog-scrollable .modal-content {
     max-height: calc(100vh - 3.5rem);
   }
-  here is an edit for height-john the two below where 3.5*/
-/*
+  /*here is an edit for height-john the two below where 3.5*/
+
   .modal-dialog-centered {
     min-height: calc(100% - 3.5rem);
   }
@@ -5590,7 +5590,7 @@ a.close.disabled {
   .modal-sm {
     max-width: 300px;
   }
-}*/
+}
 @media (min-width: 800px) {
   .modal-lg,
 .modal-xl {
@@ -10290,7 +10290,8 @@ form .row:first-child .floating-label-form-group {
 }
 /*This is for trying to get the modal row a certain height*/
 .modal-row-doubles {
-    height: 75%;
+    /*height: 75%;*/
+    flex-flow: row nowrap;
 }
 .img-fluid-three {
     height: 100%;
