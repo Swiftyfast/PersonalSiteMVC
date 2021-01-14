@@ -10366,3 +10366,15 @@ form .row:first-child .floating-label-form-group {
     margin-right: auto;
     margin-left: auto;
 }
+
+.myCenterText {
+    text-align: center;
+    ;
+}
+
+    .myCenterText a {
+        color: black;
+        font-size: larger;
+        padding: .75em;
+        border: 1px solid black
+    }
