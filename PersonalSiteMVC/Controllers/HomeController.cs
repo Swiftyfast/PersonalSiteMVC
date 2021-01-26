@@ -79,7 +79,7 @@ namespace PersonalSiteMVC.Controllers
 
             //Client Credentials (SmarterASP requires your username and password)
             client.Credentials = new NetworkCredential("no-reply@johndavidswift.com", "LOL_NOPE");
-            //client.port = 8889;
+            client.Port = 8889;
 
             //5) Attempt to send the email
             //It is always possible the mailserver will be down or may have a configuration issue.
